@@ -1,0 +1,35 @@
+site_name: Catio Docs
+site_url: https://help.catio.tech
+theme: 
+    name: "material"
+    # font:
+      # text: Arial
+    # icon:
+        #logo: fontawesome/solid/cat 
+    logo: assets/catio-blue-full.svg
+    features:
+        - navigation.footer
+    palette: 
+      scheme: default
+      primary: white
+      accent: blue
+    
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+
+extra:
+  social:
+    - icon: simple/youtube
+      link: https://youtube.com/@catio
+    - icon: simple/linkedin
+      link: https://linkedin.com/company/catiotech
+
+copyright: Copyright &copy; 2024 Catio
